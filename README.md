@@ -1,1 +1,1 @@
-# GYM_MIRI
+# MIRI FIT
