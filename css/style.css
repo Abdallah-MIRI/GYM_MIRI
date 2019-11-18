@@ -1,0 +1,316 @@
+/* Start Globel */
+body {
+/*    background-color: #fdfdfd;*/
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Almarai', sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    width: 97%;
+    margin: 0 auto;
+}
+/* End Globel */
+
+/*****************/
+/* Stert Header */
+/***************/
+.main-header {
+    padding: 15px 0;
+    height: 750px;
+    /* background: url('/images/720310.jpg');
+    background-size: cover; */
+    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url('/images/720310.jpg') center top / cover;
+}
+
+.main-header .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .main-navigation {
+    margin-right: 12px;
+}
+
+.main-header .main-navigation  ul {
+    list-style: none;
+}
+
+.main-header .main-navigation > ul li {
+    display: inline-block;
+}
+
+.main-header .main-navigation > ul a {
+    padding: 0 20px;
+    font-size: 21px;
+    color: #f2f2f2;
+    text-decoration: none;
+    display: inline-block;
+    transition: .1s;
+}
+
+.main-header .main-navigation > ul a:hover {
+    color: #ffab40;
+}
+
+#logo {
+    width: 100px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+.main-header .service {
+    text-align: center;
+    color: #f2f2f2ff;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+
+.main-header .service .flex-service {
+    width:560px;
+}
+
+.main-header .service .styile-h2 {
+    margin-bottom: 5px;
+    font-size: 90px;
+    color: #ffab40;
+    /* background-color: #f2f2f296; */
+}
+
+.main-header .service .styile-p {
+    font-size: 20px;
+}
+
+#submit {
+    border: none;
+    font-size: 23px;
+    color: #0e2b3d;
+    padding: 7px 23px; 
+    border-radius: 2px; 
+    cursor: pointer;
+    background-color: #ffab40;
+}
+
+#submit:hover {
+    background: #e68a00;
+}
+/* End Header */
+
+
+/************************/
+/* Start training-miri */
+/**********************/
+.training {
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.training .title-tra {
+    padding: 80px 0;
+}
+
+.training .title-tra > h2 {
+    margin-bottom: 0;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.training .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.training .box {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.training .icon {
+    width: 60px;
+    margin: 0 auto;
+}
+
+.training .icon img {
+    width:100%;
+}
+
+.training .information {
+    width: 300px;
+    margin: 0 auto;
+}
+/* End training-miri */
+
+/********************/
+/* Start Nutrition */
+/******************/
+.nutrition {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #0d0d0d;
+}
+
+.nutrition .h2 {
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    font-size:50px;
+}
+
+.nutrition a {
+    color: #0d0d0d;
+    text-decoration: none;
+}
+
+.nutrition .nutr-info {
+    width: 250px;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    transition-duration: .5s;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 4px 0 rgba(0,0,0,0.12);
+}
+
+.nutrition .nutr-info:hover {
+    padding: 10px;
+    background-color: rgba(247, 241, 241, 0.486);
+}
+
+.nutrition .nutr-info .nutr-image img {
+    width:100%;
+}
+
+.nutrition .nutr-info .nutr-details h3 {
+    font-size:2em;
+}
+/* End Nutrition */
+
+/**********************/
+/* Start Supplements */
+/********************/
+.supplements {
+    padding: 20px 0 80px 0;
+    text-align:center;
+    background-color: #f2f2f2;
+}
+
+.supplements h2 {
+    margin-bottom: 0;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.supplements .supp-company {
+    max-width:80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.supplements .supp-company .supp-image {
+    width: 170px;
+    display: inline-block;
+}
+
+.supplements .supp-company .supp-image .image {
+    width:100%;
+}
+/* End Supplements */
+
+/***************/
+/* Start Plan */
+/*************/
+.plan .contant {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.plan .contant .plan-title {
+    padding: 50px 0;
+}
+
+.plan .contant .plan-title h2 {
+    margin-bottom: 0;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.plan .image-info {
+    overflow:hidden;
+}
+
+.plan .image-info .test {
+    display: inline-block;
+    width:250px;
+}
+
+.plan .image-info img {
+    width:100%;
+}
+/* End Plan */
+
+/*****************/
+/* Start Footer */
+/***************/
+.footer {
+    color: #eee;
+    background-color: #333;
+}
+
+.footer .flex-widgets {
+    display: flex;
+    padding: 15px 0;
+}
+
+.footer .flex-widgets .box-widgets {
+    flex-grow: 1;
+}
+
+.footer .foo-information {
+    text-align: center;
+}
+
+.footer .foo-information .image-logo {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.footer .foo-information .image-logo img {
+    width: 100%;
+}
+
+.footer .foo-information .privacy {
+    padding: 5px 0;
+}
+
+.footer .foo-information .privacy a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+
+.footer .foo-information .icon-brand {
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #d9d9d9;
+}
+
+.footer .foo-information .icon-brand i {
+    padding: 5px;
+    font-size: 20px;
+    color: #d9d9d9;
+}
+/* End Footer */
+ 
